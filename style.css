@@ -1,0 +1,117 @@
+
+body{
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat    ;
+    background-image: linear-gradient(to right top, #33c8f1, #00baf4, #00abf6, #009af6, #0088f1, #1f7ff4, #3a74f4, #5268f3, #7561f9, #9755fc, #b744fb, #d624f7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width:50%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+form > h3{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    margin: 0;
+}
+.wrapper{
+    width:80%;
+}
+.m-auto{
+    margin: 0 auto;
+}
+.form-body{
+    padding: 10% 0 10% 0;
+    background-color: white;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.flex-2{
+    flex:2;
+}
+.flex-5{
+    flex: 5;
+    box-sizing: border-box;
+}
+.label-title, p{
+    font-weight: bold;
+}
+.inp-1{
+    width:100%;
+    padding: 10px 0%;
+    border: none;
+    border-radius: 5px;
+    background-color: #EAEAEA;
+    box-sizing: border-box;
+    display: block;
+}
+.under-inp{
+    color:#EAEAEA;
+    padding-top: 10px;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 20px;
+}
+.pr-10{
+    padding-right: 10px;
+}
+
+.flex-10{
+    flex:10;
+}
+.flex-8{
+    flex:8;
+}
+
+.pl-10{
+    padding-left: 10px;
+}
+.inp-2{
+    width:100%;
+    padding: 10px 0 10px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #EAEAEA;
+    box-sizing: border-box;
+}
+.mb-20{
+    margin-bottom: 20px ;
+}
+.mb-40{
+    margin-bottom: 40px ;
+}
+.flex-1{
+    flex:1
+}
+.w-100{
+    width:100%;
+    padding: 10px 0 10px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #EAEAEA;
+}
+.mr-10{
+    margin-right: 10px;
+}
+a{
+    width:100px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+   padding: 10px;
+    background-color: red;
+    opacity: 60%;
+    display: block;
+    margin-top: 20px;
+    color:white;
+}
